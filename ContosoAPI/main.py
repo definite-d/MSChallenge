@@ -128,7 +128,7 @@ async def approved_by(staff_id: int):
     """
     relevant_borrowers = [
         entry['borrowers_ID'] for entry in con.execute(BorrowersRecords.select()).fetchall()
-        if _borrowed_within_given_duration(entry['borrowers_dateborrowed'])
+        if entry['staff_ID'] == staff_id
     ]
     borrowers_details = []
     for borrowers_id in relevant_borrowers:
