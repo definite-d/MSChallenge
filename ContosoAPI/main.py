@@ -71,7 +71,7 @@ async def index():
         'status': 200,
         'title': 'ContosoAPI',
         'description': 'Project submission for the NACOSS GEPICT Conference task by Microsoft. '
-                       'Developed by Afam-Ifediogor U. Divine (divineafam@gamil.com).',
+                       'Developed by Afam-Ifediogor U. Divine.',
         'version': __version__,
         'developer': 'Afam-Ifediogor U. Divine',
         'developer_email': 'divineafam@gmail.com',
