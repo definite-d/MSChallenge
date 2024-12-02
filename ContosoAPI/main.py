@@ -2,7 +2,7 @@
 ContosoAPI
 
 Project submission for the NACOSS GEPICT Conference task by Microsoft.
-Developed by Afam-Ifediogor U. Divine (divineafam@gmail.com).'
+Developed by Afam-Ifediogor U. Divine.'
 """
 
 # Imports ______________________________________________________________________________________________________________
